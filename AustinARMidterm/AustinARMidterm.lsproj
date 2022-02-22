@@ -1,0 +1,1495 @@
+{
+    "lens_id": "",
+    "document_id": "NBd56EwGB-7Vo1gDLZ0j",
+    "original_document_id": "NBd56EwGB-7Vo1gDLZ0j",
+    "version": "29",
+    "lastChanged": "1645490098775",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "isAutoSaved": "false",
+    "api_level": "public",
+    "public_api_user_data_access": "unrestricted",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "4",
+            "minor": "13",
+            "patch": "0",
+            "build": "0"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "4",
+            "minor": "13",
+            "patch": "0",
+            "build": "0"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "AddCustomTriggerResponse"
+                    ],
+                    [
+                        "Behavior"
+                    ],
+                    [
+                        "Box"
+                    ],
+                    [
+                        "Echopark"
+                    ],
+                    [
+                        "Echopark",
+                        "Diff"
+                    ],
+                    [
+                        "Echopark",
+                        "Specular"
+                    ],
+                    [
+                        "WorldObjectController"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Materials"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Materials",
+                        "graph_matte_shadow"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Materials",
+                        "ground_grid"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Materials",
+                        "touch_collision"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Meshes"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Meshes",
+                        "plane"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Meshes",
+                        "touch_collision_cube"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Scripts"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Scripts",
+                        "WorldObjectController"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Textures"
+                    ],
+                    [
+                        "WorldObjectController",
+                        "Textures",
+                        "ground_grid"
+                    ],
+                    [
+                        "touchTransform"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                [
+                    "1517446348227994:84813",
+                    "1645470937482989:19655"
+                ]
+            ],
+            "selectionSetList": ""
+        },
+        "MetaInfoUIComponent": {
+            "hints": "",
+            "lens": "Untitled",
+            "applicability": "3",
+            "lens_descriptors": "",
+            "Spectacles2021UseAllowed": "false"
+        },
+        "PreviewUiComponent": {
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "1"
+            },
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Images\/Person 1.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Videos\/Idle Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_ie_project_config": {
+                "back_preview_id": "bundle:Preview\/InteractiveEnvironments\/Colorful Home",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/InteractiveEnvironments\/Colorful Home",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/InteractiveEnvironments\/Colorful Home",
+                "spectacles_preview_is_favorite": "false"
+            }
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                ""
+            ]
+        },
+        "ObjectTracking3DUIComponent": {
+            "foldedOwnerSceneObjects": ""
+        },
+        "Material::UiComponent": {
+            "active_graph_asset": "1645470936186201:18972"
+        },
+        "Script::UiComponent": {
+            "active_graph_asset": "1645473729365687:392809"
+        },
+        "VFX::UiComponent": {
+            "active_graph_asset": "-1:-1"
+        }
+    },
+    "model": {
+        "IResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "10",
+                    "uid": "1588296316843646:534374",
+                    "name": "Files\/File3.jpeg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "11",
+                    "uid": "1588296316857901:534385",
+                    "name": "Files\/File5.jpeg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "12",
+                    "uid": "8675309:9035768",
+                    "name": "Physics Root World Settings Asset",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "13",
+                    "uid": "1645470935760070:18881",
+                    "name": "Files\/File8.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "14",
+                    "uid": "1645470935842075:18901",
+                    "name": "Files\/File11.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "15",
+                    "uid": "1645470935895620:18919",
+                    "name": "Files\/File12.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "16",
+                    "uid": "1645470935954635:18938",
+                    "name": "Files\/File14.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "17",
+                    "uid": "1645470935989023:18955",
+                    "name": "Files\/File16",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "18",
+                    "uid": "1645470936186201:18972",
+                    "name": "Files\/File18",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "19",
+                    "uid": "1645470936505975:19037",
+                    "name": "Files\/File20",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "95",
+                    "uid": "1645471142160290:44884",
+                    "name": "Files\/File39.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "98",
+                    "uid": "1645473729365687:392809",
+                    "name": "Files\/File45",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "99",
+                    "uid": "1645473740368631:394979",
+                    "name": "Files\/File47.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "100",
+                    "uid": "1645477318974039:998892",
+                    "name": "Files\/File48.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                }
+            ],
+            "MaterialUpdateManager": {
+                "unrecognizedMaterials": ""
+            }
+        },
+        "InspectorComponent": {
+            "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                },
+                "ScreenTransform": {
+                    "uidData": "",
+                    "generalData": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1517446348227994:84813",
+                "1": "1517446348228144:84822",
+                "2": "1528843813151434:5126",
+                "3": "1645470937530311:19979",
+                "4": "1645470937531695:19993",
+                "5": "1645470937532972:20007",
+                "6": "1645471120063245:42109",
+                "7": "1645471142186997:44897",
+                "8": "1645471144928923:46151"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "2",
+            "showOrthographicLayer": "false",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1",
+                    "colorCode": "20"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576",
+                    "colorCode": "21"
+                }
+            ]
+        },
+        "IFileManager": {
+            "pathes": [
+                {
+                    "k": "3",
+                    "v": "Files\/File3.jpeg"
+                },
+                {
+                    "k": "4",
+                    "v": "Files\/File4.jpeg"
+                },
+                {
+                    "k": "5",
+                    "v": "Files\/File5.jpeg"
+                },
+                {
+                    "k": "6",
+                    "v": "Files\/File6.jpeg"
+                },
+                {
+                    "k": "7",
+                    "v": "Files\/File7.hdr"
+                },
+                {
+                    "k": "8",
+                    "v": "Files\/File8.pvr"
+                },
+                {
+                    "k": "9",
+                    "v": "Files\/File9.png"
+                },
+                {
+                    "k": "10",
+                    "v": "Files\/File10.png"
+                },
+                {
+                    "k": "11",
+                    "v": "Files\/File11.js"
+                },
+                {
+                    "k": "12",
+                    "v": "Files\/File12.mesh"
+                },
+                {
+                    "k": "13",
+                    "v": "Files\/File13.mesh"
+                },
+                {
+                    "k": "14",
+                    "v": "Files\/File14.mesh"
+                },
+                {
+                    "k": "15",
+                    "v": "Files\/File15.mesh"
+                },
+                {
+                    "k": "16",
+                    "v": "Files\/File16"
+                },
+                {
+                    "k": "17",
+                    "v": "Files\/File17.lsmat"
+                },
+                {
+                    "k": "18",
+                    "v": "Files\/File18"
+                },
+                {
+                    "k": "19",
+                    "v": "Files\/File19.lsmat"
+                },
+                {
+                    "k": "20",
+                    "v": "Files\/File20"
+                },
+                {
+                    "k": "21",
+                    "v": "Files\/File21.lsmat"
+                },
+                {
+                    "k": "37",
+                    "v": "Files\/File37.pvr"
+                },
+                {
+                    "k": "39",
+                    "v": "Files\/File39.mesh"
+                },
+                {
+                    "k": "40",
+                    "v": "Files\/File40.mesh"
+                },
+                {
+                    "k": "45",
+                    "v": "Files\/File45"
+                },
+                {
+                    "k": "46",
+                    "v": "Files\/File46.lsscript"
+                },
+                {
+                    "k": "47",
+                    "v": "Files\/File47.js"
+                },
+                {
+                    "k": "48",
+                    "v": "Files\/File48.js"
+                }
+            ]
+        },
+        "RemoteApi::ModelManager": {
+            "api_specs": ""
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn",
+            "sceneType": "binaryScene"
+        }
+    },
+    "controller": {
+        "IResourceController": {
+            "public": {
+                "pathes": [
+                    {
+                        "k": "967",
+                        "v": "Echopark.hdr"
+                    },
+                    {
+                        "k": "968",
+                        "v": "WorldObjectController"
+                    },
+                    {
+                        "k": "969",
+                        "v": "WorldObjectController\/Textures"
+                    },
+                    {
+                        "k": "970",
+                        "v": "WorldObjectController\/Textures\/ground_grid.png"
+                    },
+                    {
+                        "k": "971",
+                        "v": "WorldObjectController\/Scripts"
+                    },
+                    {
+                        "k": "972",
+                        "v": "WorldObjectController\/Scripts\/WorldObjectController.js"
+                    },
+                    {
+                        "k": "973",
+                        "v": "WorldObjectController\/Meshes"
+                    },
+                    {
+                        "k": "974",
+                        "v": "WorldObjectController\/Meshes\/touch_collision_cube.mesh"
+                    },
+                    {
+                        "k": "975",
+                        "v": "WorldObjectController\/Meshes\/plane.mesh"
+                    },
+                    {
+                        "k": "976",
+                        "v": "WorldObjectController\/Materials"
+                    },
+                    {
+                        "k": "977",
+                        "v": "WorldObjectController\/Materials\/touch_collision.lsmat"
+                    },
+                    {
+                        "k": "978",
+                        "v": "WorldObjectController\/Materials\/ground_grid.lsmat"
+                    },
+                    {
+                        "k": "979",
+                        "v": "WorldObjectController\/Materials\/graph_matte_shadow.lsmat"
+                    },
+                    {
+                        "k": "991",
+                        "v": "Box.mesh"
+                    },
+                    {
+                        "k": "994",
+                        "v": "touchTransform.lsscript"
+                    },
+                    {
+                        "k": "995",
+                        "v": "Behavior.js"
+                    },
+                    {
+                        "k": "26832",
+                        "v": "AddCustomTriggerResponse.js"
+                    }
+                ],
+                "hashes": [
+                    {
+                        "k": "1",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "2",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "967",
+                        "v": "0cf0e87a54f33218fcf92a12d7f0ede2"
+                    },
+                    {
+                        "k": "970",
+                        "v": "26b5600591ba238fbcf5109847db6d02"
+                    },
+                    {
+                        "k": "972",
+                        "v": "441e03e6cbaf2911803ef82a1578cb84"
+                    },
+                    {
+                        "k": "974",
+                        "v": "e9167dc2c6b4be6840fd00390a21b633"
+                    },
+                    {
+                        "k": "975",
+                        "v": "3924da4ece660b56cdcb4f2b7b3fe66c"
+                    },
+                    {
+                        "k": "977",
+                        "v": "0604fc55b70c5085f10fc618d1bf54fc"
+                    },
+                    {
+                        "k": "978",
+                        "v": "491c7fe5493499919503d252b92b8a81"
+                    },
+                    {
+                        "k": "979",
+                        "v": "c11f78892d5980ecfec5bdfe94fac79c"
+                    },
+                    {
+                        "k": "982",
+                        "v": "6955ae436ec6a2c1fa59d00f761681f4"
+                    },
+                    {
+                        "k": "983",
+                        "v": "0377342409f8ec90142150bdb61f7bc7"
+                    },
+                    {
+                        "k": "985",
+                        "v": "cfb995f6f6bdb951ea945c298701ad69"
+                    },
+                    {
+                        "k": "986",
+                        "v": "83952503d7715d6e7a4a382918761159"
+                    },
+                    {
+                        "k": "987",
+                        "v": "be41801402376ae465615fd09cf21b74"
+                    },
+                    {
+                        "k": "990",
+                        "v": "ff54698eaa37a1540fdd12073d3c4d3c"
+                    },
+                    {
+                        "k": "991",
+                        "v": "621da74e06cc402b895f39376927a9d1"
+                    },
+                    {
+                        "k": "992",
+                        "v": "573e69ef8e9d663f1e46e7423c9f0b5e"
+                    },
+                    {
+                        "k": "993",
+                        "v": "42d8331286e4c056a47b95175dadba38"
+                    },
+                    {
+                        "k": "994",
+                        "v": "0b91949129ae5179e930a77f65627784"
+                    },
+                    {
+                        "k": "995",
+                        "v": "324d936bf1b61fe7a9ad8efc0bd63807"
+                    },
+                    {
+                        "k": "26832",
+                        "v": "a4484374029ad9e113aac8a0304f0d61"
+                    }
+                ],
+                "publicState": {
+                    "tree": {
+                        "isFolder": "true",
+                        "lastModified": "2022-02-21T17:34:17",
+                        "name": "Public",
+                        "hash": "124a5316e2dd42bcdb45d7d580190bf3",
+                        "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-02-04T07:41:27",
+                                "name": "AddCustomTriggerResponse.js",
+                                "hash": "a4484374029ad9e113aac8a0304f0d61",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-01-25T19:51:42",
+                                "name": "Behavior.js",
+                                "hash": "324d936bf1b61fe7a9ad8efc0bd63807",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-02-21T12:19:02",
+                                "name": "Box.mesh",
+                                "hash": "621da74e06cc402b895f39376927a9d1",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-01-25T19:52:06",
+                                "name": "Echopark.hdr",
+                                "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-01-25T19:52:06",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-02-21T17:34:17",
+                                "name": "touchTransform.lsscript",
+                                "hash": "0b91949129ae5179e930a77f65627784",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-02-21T13:49:35",
+                                "name": "WorldObjectController",
+                                "hash": "be1e5a60004016065e09ad26382567b0",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-02-21T12:15:35",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-02-21T17:34:17",
+                                        "name": "Materials",
+                                        "hash": "a60b467a2a247d3e9da6ae356302d122",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:36",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T17:34:17",
+                                                "name": "graph_matte_shadow.lsmat",
+                                                "hash": "3905bb1c51147e0dbff281b427172b2e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T17:34:17",
+                                                "name": "ground_grid.lsmat",
+                                                "hash": "417135240f79e74e04dc295b3256c0c6",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:38",
+                                                "name": "touch_collision.lsmat",
+                                                "hash": "0604fc55b70c5085f10fc618d1bf54fc",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-02-21T13:49:35",
+                                        "name": "Meshes",
+                                        "hash": "f0362812682ac9944a312513fd031064",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:35",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:35",
+                                                "name": "plane.mesh",
+                                                "hash": "3924da4ece660b56cdcb4f2b7b3fe66c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:35",
+                                                "name": "touch_collision_cube.mesh",
+                                                "hash": "e9167dc2c6b4be6840fd00390a21b633",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-02-21T13:49:35",
+                                        "name": "Scripts",
+                                        "hash": "9ff61bcbe2ee900b5e696113446bec86",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:35",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:35",
+                                                "name": "WorldObjectController.js",
+                                                "hash": "441e03e6cbaf2911803ef82a1578cb84",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-02-21T13:49:35",
+                                        "name": "Textures",
+                                        "hash": "c165261cecff61dd56883a587688fc40",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:35",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-02-21T12:15:35",
+                                                "name": "ground_grid.png",
+                                                "hash": "26b5600591ba238fbcf5109847db6d02",
+                                                "children": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "complexResources": ""
+            },
+            "tree": {
+                "name": "",
+                "type": "0",
+                "subtype": "-1",
+                "resourceId": "-1",
+                "dependency": "0",
+                "hidden": "false",
+                "uid": "-1:-1",
+                "fileId": "18446744073709551615",
+                "originalId": "18446744073709551615",
+                "publicId": "18446744073709551615",
+                "source": "",
+                "additional": "",
+                "resources": [
+                    {
+                        "name": "Render Target",
+                        "type": "1",
+                        "subtype": "1",
+                        "resourceId": "1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1:1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": {
+                            "RenderTargetRole": "1"
+                        }
+                    },
+                    {
+                        "name": "Device Camera Texture",
+                        "type": "1",
+                        "subtype": "3",
+                        "resourceId": "2",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "2:2",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Physics Root World Settings",
+                        "type": "36",
+                        "subtype": "1",
+                        "resourceId": "12",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "8675309:9035768",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Echopark",
+                        "type": "9",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "2",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "7",
+                        "originalId": "18446744073709551615",
+                        "publicId": "967",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Diff",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "10",
+                                "dependency": "1",
+                                "hidden": "false",
+                                "uid": "1588296316843646:534374",
+                                "fileId": "3",
+                                "originalId": "4",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Specular",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "11",
+                                "dependency": "1",
+                                "hidden": "false",
+                                "uid": "1588296316857901:534385",
+                                "fileId": "5",
+                                "originalId": "6",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "WorldObjectController",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "968",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Textures",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "969",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "ground_grid",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "13",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1645470935760070:18881",
+                                        "fileId": "8",
+                                        "originalId": "9",
+                                        "publicId": "970",
+                                        "source": "C:\/Users\/s0497355\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioZuZCQDUcDaUA\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                        "additional": {
+                                            "originHash": "26b5600591ba238fbcf5109847db6d02"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Scripts",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "971",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "WorldObjectController",
+                                        "type": "4",
+                                        "subtype": "0",
+                                        "resourceId": "14",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1645470935842075:18901",
+                                        "fileId": "11",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "972",
+                                        "source": "C:\/Users\/s0497355\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioZuZCQDUcDaUA\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Meshes",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "973",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "touch_collision_cube",
+                                        "type": "3",
+                                        "subtype": "0",
+                                        "resourceId": "15",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1645470935895620:18919",
+                                        "fileId": "12",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "974",
+                                        "source": "C:\/Users\/s0497355\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioZuZCQDUcDaUA\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                        "additional": {
+                                            "info": {
+                                                "vertexAttribs": [
+                                                    {
+                                                        "semantic": "position",
+                                                        "format": "9",
+                                                        "canBeDisabled": "false"
+                                                    },
+                                                    {
+                                                        "semantic": "normal",
+                                                        "format": "9",
+                                                        "canBeDisabled": "true"
+                                                    },
+                                                    {
+                                                        "semantic": "tangent",
+                                                        "format": "9",
+                                                        "canBeDisabled": "true"
+                                                    },
+                                                    {
+                                                        "semantic": "texture0",
+                                                        "format": "9",
+                                                        "canBeDisabled": "true"
+                                                    }
+                                                ],
+                                                "hasBlendShapes": "false",
+                                                "hasSkinBones": "false"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "name": "plane",
+                                        "type": "3",
+                                        "subtype": "0",
+                                        "resourceId": "16",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1645470935954635:18938",
+                                        "fileId": "14",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "975",
+                                        "source": "C:\/Users\/s0497355\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioZuZCQDUcDaUA\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                        "additional": {
+                                            "originalAttribs": {
+                                                "vertexAttribs": [
+                                                    {
+                                                        "semantic": "position",
+                                                        "format": "9",
+                                                        "index": "0"
+                                                    },
+                                                    {
+                                                        "semantic": "normal",
+                                                        "format": "9",
+                                                        "index": "1"
+                                                    },
+                                                    {
+                                                        "semantic": "tangent",
+                                                        "format": "9",
+                                                        "index": "2"
+                                                    },
+                                                    {
+                                                        "semantic": "texture0",
+                                                        "format": "9",
+                                                        "index": "3"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Materials",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "976",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "touch_collision",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "17",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1645470935989023:18955",
+                                        "fileId": "16",
+                                        "originalId": "17",
+                                        "publicId": "977",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "ground_grid",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "18",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1645470936186201:18972",
+                                        "fileId": "18",
+                                        "originalId": "19",
+                                        "publicId": "978",
+                                        "source": "",
+                                        "additional": {
+                                            "isUnpackedInPublic": "false"
+                                        }
+                                    },
+                                    {
+                                        "name": "graph_matte_shadow",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "19",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1645470936505975:19037",
+                                        "fileId": "20",
+                                        "originalId": "21",
+                                        "publicId": "979",
+                                        "source": "",
+                                        "additional": {
+                                            "isUnpackedInPublic": "false"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Box",
+                        "type": "3",
+                        "subtype": "0",
+                        "resourceId": "95",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1645471142160290:44884",
+                        "fileId": "39",
+                        "originalId": "18446744073709551615",
+                        "publicId": "991",
+                        "source": "C:\/Users\/s0497355\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioZuZCQDUcDaUA\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                        "additional": {
+                            "info": {
+                                "vertexAttribs": [
+                                    {
+                                        "semantic": "position",
+                                        "format": "9",
+                                        "canBeDisabled": "false"
+                                    },
+                                    {
+                                        "semantic": "normal",
+                                        "format": "9",
+                                        "canBeDisabled": "true"
+                                    },
+                                    {
+                                        "semantic": "tangent",
+                                        "format": "9",
+                                        "canBeDisabled": "true"
+                                    },
+                                    {
+                                        "semantic": "color",
+                                        "format": "3",
+                                        "canBeDisabled": "true"
+                                    },
+                                    {
+                                        "semantic": "texture0",
+                                        "format": "9",
+                                        "canBeDisabled": "true"
+                                    }
+                                ],
+                                "hasBlendShapes": "false",
+                                "hasSkinBones": "false"
+                            }
+                        }
+                    },
+                    {
+                        "name": "touchTransform",
+                        "type": "4",
+                        "subtype": "1",
+                        "resourceId": "98",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1645473729365687:392809",
+                        "fileId": "45",
+                        "originalId": "46",
+                        "publicId": "994",
+                        "source": "C:\/Users\/s0497355\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudioZuZCQDUcDaUA\/\/system\/\/emergencyFiles\/emergencyGraph.lsscript",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Behavior",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "99",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1645473740368631:394979",
+                        "fileId": "47",
+                        "originalId": "18446744073709551615",
+                        "publicId": "995",
+                        "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/Presets\/Scripts\/BehaviorScript.js",
+                        "additional": ""
+                    },
+                    {
+                        "name": "AddCustomTriggerResponse",
+                        "type": "4",
+                        "subtype": "0",
+                        "resourceId": "100",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1645477318974039:998892",
+                        "fileId": "48",
+                        "originalId": "18446744073709551615",
+                        "publicId": "26832",
+                        "source": "C:\/Users\/s0497355\/Downloads\/Tutorial Resources\/Tutorial Resources\/AddCustomTriggerResponse.js",
+                        "additional": ""
+                    }
+                ]
+            }
+        },
+        "InspectorController": {
+            "selection": {
+                "objects": [
+                    "1645471120063245:42109"
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": "",
+            "22": "",
+            "23": "",
+            "24": "",
+            "25": "",
+            "26": "",
+            "27": "",
+            "28": "",
+            "29": "",
+            "30": "",
+            "31": "",
+            "32": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        },
+        "Compression::IController": {
+            "new_compression_info": [
+                {
+                    "k": "1645470935760070:18881",
+                    "v": {
+                        "infos": {
+                            "originalSize": "49509",
+                            "compressedSize": "42335",
+                            "originalRAM": "1048576",
+                            "compressedRAM": "131072",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "10",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "26b5600591ba238fbcf5109847db6d02",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "37"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1645470935895620:18919",
+                    "v": {
+                        "infos": {
+                            "originalSize": "663",
+                            "compressedSize": "663",
+                            "originalRAM": "1224",
+                            "compressedRAM": "1224",
+                            "extension": "mesh",
+                            "settings": {
+                                "isCompressed": "false",
+                                "info": {
+                                    "vertexAttribs": [
+                                        {
+                                            "semantic": "position",
+                                            "format": "9",
+                                            "canBeDisabled": "false"
+                                        },
+                                        {
+                                            "semantic": "normal",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "tangent",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "texture0",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        }
+                                    ],
+                                    "hasBlendShapes": "false",
+                                    "hasSkinBones": "false"
+                                },
+                                "type": "0",
+                                "attributeFormat": "",
+                                "draco": {
+                                    "posBits": "11",
+                                    "texBits": "10",
+                                    "normalBits": "8",
+                                    "colorBits": "8",
+                                    "genericBits": "8",
+                                    "compressLvl": "7"
+                                }
+                            }
+                        },
+                        "uncompressed_file": "13",
+                        "compressed_files": ""
+                    }
+                },
+                {
+                    "k": "1645470935954635:18938",
+                    "v": {
+                        "infos": {
+                            "originalSize": "554",
+                            "compressedSize": "554",
+                            "originalRAM": "204",
+                            "compressedRAM": "204",
+                            "extension": "mesh",
+                            "settings": {
+                                "isCompressed": "false",
+                                "info": {
+                                    "vertexAttribs": [
+                                        {
+                                            "semantic": "position",
+                                            "format": "9",
+                                            "canBeDisabled": "false"
+                                        },
+                                        {
+                                            "semantic": "normal",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "tangent",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "texture0",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        }
+                                    ],
+                                    "hasBlendShapes": "false",
+                                    "hasSkinBones": "false"
+                                },
+                                "type": "0",
+                                "attributeFormat": "",
+                                "draco": {
+                                    "posBits": "11",
+                                    "texBits": "10",
+                                    "normalBits": "8",
+                                    "colorBits": "8",
+                                    "genericBits": "8",
+                                    "compressLvl": "7"
+                                }
+                            }
+                        },
+                        "uncompressed_file": "15",
+                        "compressed_files": ""
+                    }
+                },
+                {
+                    "k": "1645471142160290:44884",
+                    "v": {
+                        "infos": {
+                            "originalSize": "794",
+                            "compressedSize": "794",
+                            "originalRAM": "1320",
+                            "compressedRAM": "1320",
+                            "extension": "mesh",
+                            "settings": {
+                                "isCompressed": "false",
+                                "info": {
+                                    "vertexAttribs": [
+                                        {
+                                            "semantic": "position",
+                                            "format": "9",
+                                            "canBeDisabled": "false"
+                                        },
+                                        {
+                                            "semantic": "normal",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "tangent",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "color",
+                                            "format": "3",
+                                            "canBeDisabled": "true"
+                                        },
+                                        {
+                                            "semantic": "texture0",
+                                            "format": "9",
+                                            "canBeDisabled": "true"
+                                        }
+                                    ],
+                                    "hasBlendShapes": "false",
+                                    "hasSkinBones": "false"
+                                },
+                                "type": "0",
+                                "attributeFormat": "",
+                                "draco": {
+                                    "posBits": "11",
+                                    "texBits": "10",
+                                    "normalBits": "8",
+                                    "colorBits": "8",
+                                    "genericBits": "8",
+                                    "compressLvl": "7"
+                                }
+                            }
+                        },
+                        "uncompressed_file": "40",
+                        "compressed_files": ""
+                    }
+                }
+            ]
+        },
+        "AssetLibController": {
+            "itemUidToID": ""
+        }
+    },
+    "templateName": "Empty Project",
+    "templateUrl": "Lens Studio version 4.13.0"
+}
