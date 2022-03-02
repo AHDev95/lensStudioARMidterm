@@ -3,7 +3,7 @@
     "document_id": "pBkMCOQBDnBguCKqwXr_",
     "original_document_id": "NBd56EwGB-7Vo1gDLZ0j",
     "version": "29",
-    "lastChanged": "1646166956075",
+    "lastChanged": "1646201591774",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -43,6 +43,9 @@
                         "Specular"
                     ],
                     [
+                        "PBR"
+                    ],
+                    [
                         "Particles"
                     ],
                     [
@@ -54,11 +57,22 @@
                         "cr_smoke_fade"
                     ],
                     [
+                        "Simple PBR"
+                    ],
+                    [
                         "Textures"
                     ],
                     [
                         "Textures",
                         "Base 2"
+                    ],
+                    [
+                        "Textures",
+                        "MaterialParams"
+                    ],
+                    [
+                        "Textures",
+                        "Normal"
                     ],
                     [
                         "UI"
@@ -254,9 +268,6 @@
                         "ground_grid"
                     ],
                     [
-                        "audio"
-                    ],
-                    [
                         "audio",
                         "buttonPress"
                     ],
@@ -291,6 +302,29 @@
                     [
                         "audio",
                         "smother"
+                    ],
+                    [
+                        "audio",
+                        "textToSpeach",
+                        "blade_inlay"
+                    ],
+                    [
+                        "audio",
+                        "textToSpeach",
+                        "hilt"
+                    ],
+                    [
+                        "audio",
+                        "textToSpeach",
+                        "state"
+                    ],
+                    [
+                        "audio",
+                        "textToSpeach",
+                        "steel"
+                    ],
+                    [
+                        "cardMat"
                     ],
                     [
                         "instruction"
@@ -420,7 +454,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
                     "1517446348227994:84813",
                     "1645470937482989:19655",
                     "1645471142186997:44897",
@@ -432,29 +465,23 @@
                     "1645554309884153:60876",
                     "1645554310038388:62499",
                     "1645554310173751:64130",
-                    "1645554659523994:175101",
                     "1645565363263813:3248872",
                     "1645569891968601:5647540",
                     "1645570010242601:5725401",
                     "1645574083993089:7032082",
                     "1645578554213798:8334723",
-                    "1645645518945747:1201223",
-                    "1645645617319995:1236730",
                     "1645654850191100:4346389",
                     "1645662119085537:7619587",
                     "1645662119120427:7619847",
                     "1645727053021904:420341",
-                    "1645727104253702:567346",
                     "1645727107614327:621633",
-                    "1645900547212943:1091925",
-                    "1645900650261122:1144044",
+                    "1645736591283687:5504882",
                     "1645900680518024:1188096",
                     "1645905584922785:2290502",
+                    "1645909906003903:5071925",
                     "1645909991778607:5238100",
-                    "1645910019123514:5258572",
-                    "1646146636090034:154908",
-                    "1646146636131681:155168",
-                    "1646146790848290:271082"
+                    "1646146790849667:271084",
+                    "1646196964007246:1119095"
                 ]
             ],
             "selectionSetList": ""
@@ -513,7 +540,6 @@
                     "1645653072901115:3659263",
                     "1645662119169484:7620509",
                     "1645662119184833:7620741",
-                    "1645727053113691:421407",
                     "1645736591397262:5505948",
                     "1645746636987852:10489092",
                     "1645746636990825:10489481",
@@ -524,7 +550,8 @@
                     "1645748167742202:12037631",
                     "1645748167745139:12038024",
                     "1645822346748996:3115570",
-                    "1645835345628567:8316260"
+                    "1645835345628567:8316260",
+                    "1646146790851244:271088"
                 ]
             ]
         },
@@ -1108,6 +1135,78 @@
                     "resId": "171",
                     "uid": "1646079609065153:4584487",
                     "name": "Files\/File195.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "172",
+                    "uid": "1646193526147852:306823",
+                    "name": "Files\/File196",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "173",
+                    "uid": "1646193641778051:340089",
+                    "name": "Files\/File198",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "174",
+                    "uid": "1646193641976285:340190",
+                    "name": "Files\/File200.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "175",
+                    "uid": "1646193642019771:340206",
+                    "name": "Files\/File202.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "177",
+                    "uid": "1646193831185315:420094",
+                    "name": "Files\/File206",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "178",
+                    "uid": "1646196747085436:978905",
+                    "name": "Files\/File208.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "179",
+                    "uid": "1646196747160082:978922",
+                    "name": "Files\/File209.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "180",
+                    "uid": "1646196747185310:978937",
+                    "name": "Files\/File210.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "181",
+                    "uid": "1646196747211725:978948",
+                    "name": "Files\/File211.mp3",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -1776,7 +1875,12 @@
                 "92": "1646146790849667:271084",
                 "93": "1646146790850608:271086",
                 "94": "1646146790857694:271510",
-                "95": "1646146790859540:271528"
+                "95": "1646146790859540:271528",
+                "96": "1646196964007246:1119095",
+                "97": "1646196981523191:1121187",
+                "98": "1646196985598962:1141042",
+                "99": "1646196987671624:1160685",
+                "100": "1646196990657731:1180436"
             }
         },
         "LayerComponent": {
@@ -2366,6 +2470,62 @@
                 {
                     "k": "195",
                     "v": "Files\/File195.mp3"
+                },
+                {
+                    "k": "196",
+                    "v": "Files\/File196"
+                },
+                {
+                    "k": "197",
+                    "v": "Files\/File197.lsmat"
+                },
+                {
+                    "k": "198",
+                    "v": "Files\/File198"
+                },
+                {
+                    "k": "199",
+                    "v": "Files\/File199.lsmat"
+                },
+                {
+                    "k": "200",
+                    "v": "Files\/File200.png"
+                },
+                {
+                    "k": "201",
+                    "v": "Files\/File201.png"
+                },
+                {
+                    "k": "202",
+                    "v": "Files\/File202.png"
+                },
+                {
+                    "k": "203",
+                    "v": "Files\/File203.png"
+                },
+                {
+                    "k": "206",
+                    "v": "Files\/File206"
+                },
+                {
+                    "k": "207",
+                    "v": "Files\/File207.lsmat"
+                },
+                {
+                    "k": "208",
+                    "v": "Files\/File208.mp3"
+                },
+                {
+                    "k": "209",
+                    "v": "Files\/File209.mp3"
+                },
+                {
+                    "k": "210",
+                    "v": "Files\/File210.mp3"
+                },
+                {
+                    "k": "211",
+                    "v": "Files\/File211.mp3"
                 }
             ]
         },
@@ -2720,6 +2880,46 @@
                     {
                         "k": "26918",
                         "v": "audio\/clipFromBensound_Enigmatic.mp3"
+                    },
+                    {
+                        "k": "26919",
+                        "v": "Simple PBR.lsmat"
+                    },
+                    {
+                        "k": "26920",
+                        "v": "Textures\/MaterialParams.png"
+                    },
+                    {
+                        "k": "26921",
+                        "v": "Textures\/Normal.png"
+                    },
+                    {
+                        "k": "26922",
+                        "v": "PBR.lsmat"
+                    },
+                    {
+                        "k": "26924",
+                        "v": "cardMat.lsmat"
+                    },
+                    {
+                        "k": "26925",
+                        "v": "audio\/textToSpeach\/blade_inlay.mp3"
+                    },
+                    {
+                        "k": "26926",
+                        "v": "audio\/textToSpeach\/hilt.mp3"
+                    },
+                    {
+                        "k": "26927",
+                        "v": "audio\/textToSpeach\/state.mp3"
+                    },
+                    {
+                        "k": "26928",
+                        "v": "audio\/textToSpeach\/steel.mp3"
+                    },
+                    {
+                        "k": "26929",
+                        "v": "audio\/textToSpeach"
                     }
                 ],
                 "hashes": [
@@ -2757,11 +2957,11 @@
                     },
                     {
                         "k": "978",
-                        "v": "4f336a23a0505b67761b8a55e29b16a6"
+                        "v": "69452cc08f052ca7369d5056fd2cfcd1"
                     },
                     {
                         "k": "979",
-                        "v": "120a47f0a9f2ac2e7d9e25ca8c382bc2"
+                        "v": "09d06dfb9ce1dbda5885e1fdaf1b0e76"
                     },
                     {
                         "k": "982",
@@ -2869,7 +3069,7 @@
                     },
                     {
                         "k": "26854",
-                        "v": "194c23cb218a9a145e798f94b2742f75"
+                        "v": "4e9a58c9a55ec4d46d935247183afb4b"
                     },
                     {
                         "k": "26856",
@@ -3073,39 +3273,43 @@
                     },
                     {
                         "k": "26919",
-                        "v": "e5db9d5b19168d2008aa4b1cf1fd13b1"
+                        "v": "c3d06df5978af2e4a4930f81c8a62475"
                     },
                     {
                         "k": "26920",
-                        "v": "9fca9559dff2087af92f6c7c345fb0af"
+                        "v": "af2715bddfbca2d4e72f470d285c5010"
                     },
                     {
                         "k": "26921",
-                        "v": "7c7653600093a2c804702ef45a2c188a"
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
                     },
                     {
                         "k": "26922",
-                        "v": "f8e4cbb0fbfa3d4139c98bed9e23ec3f"
+                        "v": "6c4045feabc34566758391057ea49bdb"
+                    },
+                    {
+                        "k": "26923",
+                        "v": "0abfb4137c4f3af7002823a334d47c57"
                     },
                     {
                         "k": "26924",
-                        "v": "cb227cae25f08b1eb6956339486b5f7b"
+                        "v": "1476926516e0bdbd42ee4778e8e4601b"
                     },
                     {
                         "k": "26925",
-                        "v": "4c94fe9a543a43e8aa2f10efc3c31867"
+                        "v": "322fd9c0eb22a6e384c37a8fbcd33ea3"
                     },
                     {
                         "k": "26926",
-                        "v": "1987dfec5b53836cae47c4a678217167"
+                        "v": "cf6c84c03b5ff3b269515710b699e373"
                     },
                     {
                         "k": "26927",
-                        "v": "db1633dd326bc8f976dd02c2fdb5bbf4"
+                        "v": "c88c2be7abb5ea485865d76aacaf2482"
                     },
                     {
                         "k": "26928",
-                        "v": "b89e3f7e5bb9e99c64ac1d2ce692bf29"
+                        "v": "481a382923e77d604f4c335d521b9a80"
                     },
                     {
                         "k": "26931",
@@ -3335,139 +3539,189 @@
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2022-03-01T12:51:30",
+                        "lastModified": "2022-03-01T23:04:39",
                         "name": "Public",
-                        "hash": "ea779acf16ff6b435a934cc6a94aa590",
+                        "hash": "a96c1731568beaab5b0cea71451a2a6c",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-01T12:51:29",
+                                "lastModified": "2022-03-01T21:53:12",
                                 "name": "audio",
-                                "hash": "d2429635d8bf232bca49710242033ca6",
+                                "hash": "39219561efe34c9a358c1da2a75acf09",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T11:31:52",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "buttonPress.mp3",
                                         "hash": "ba03eab0467ba98d66ec61a8531ca493",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T11:32:24",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "buttonRelease.mp3",
                                         "hash": "4950fc1ca8871f0a406c1d03055fc153",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T12:54:28",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "cardSelect.mp3",
                                         "hash": "c7eccdb7b317feb433b5012e53278722",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-28T13:19:12",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "clipFromBensound_Enigmatic.mp3",
                                         "hash": "d71cf6f02bebe3983a581491010761d3",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T12:58:50",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "closeList.mp3",
                                         "hash": "c32905b626b70231e2a16fce764a395b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T11:33:52",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T11:01:58",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "newSwordRing.mp3",
                                         "hash": "1fc4eb520abf253a34f54ba47f6451dc",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T14:08:12",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "oldSwordDrop.mp3",
                                         "hash": "e3611ec94bdca7b50b0714f17e042b4a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T12:58:34",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "openList.mp3",
                                         "hash": "bc4960d259fad5e6a9f98ac7729d982b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-28T08:41:39",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "smother.mp3",
                                         "hash": "daeb21d7c8ba5355540b8b2f480df72d",
                                         "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2022-03-01T21:53:12",
+                                        "name": "textToSpeach",
+                                        "hash": "f4306c1289c10f2e92bb72239fefdd52",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-03-01T21:48:50",
+                                                "name": "blade_inlay.mp3",
+                                                "hash": "322fd9c0eb22a6e384c37a8fbcd33ea3",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-03-01T21:52:44",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-03-01T21:49:01",
+                                                "name": "hilt.mp3",
+                                                "hash": "cf6c84c03b5ff3b269515710b699e373",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-03-01T21:49:08",
+                                                "name": "state.mp3",
+                                                "hash": "c88c2be7abb5ea485865d76aacaf2482",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2022-03-01T21:49:20",
+                                                "name": "steel.mp3",
+                                                "hash": "481a382923e77d604f4c335d521b9a80",
+                                                "children": ""
+                                            }
+                                        ]
                                     }
                                 ]
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-01-25T19:52:06",
+                                "lastModified": "2022-03-01T23:04:39",
+                                "name": "cardMat.lsmat",
+                                "hash": "af426e4f7fad5b32b30cf2a03e31bcf8",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "Echopark.hdr",
                                 "hash": "0cf0e87a54f33218fcf92a12d7f0ede2",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-01-25T19:52:06",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-02-25T23:12:16",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "instruction.png",
                                 "hash": "6d75d7df546529d47ab157a8bfdcd935",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-01T12:51:29",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "mesh",
                                 "hash": "dc276fe712031bd65da8b4b19943d2f8",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-21T12:19:04",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Box.mesh",
                                         "hash": "621da74e06cc402b895f39376927a9d1",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-28T12:27:13",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-22T16:24:42",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Plane.mesh",
                                         "hash": "f3f8f179b87ba4b5a44077fb80d53214",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-22T14:29:36",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Sphere.mesh",
                                         "hash": "ffbce66d7c12d942b13208740e9d0059",
                                         "children": ""
@@ -3476,55 +3730,55 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-01T12:51:30",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "Particles",
                                 "hash": "9fdee3afa283c2a0aa215a145e3f1d8e",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-10T13:40:54",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "cr_smoke_fade.png",
                                         "hash": "fb284a6f2c7189d45865e6bd636566ed",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-25T12:54:38",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T17:29:04",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Particles Emitter Material.lsmat",
                                         "hash": "8527d4931fd3e07904539ba2b7ea6bb3",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-25T12:54:38",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Particles Mesh.mesh",
                                         "hash": "9cf6125d8ce9ba874fe0ff27b21b2323",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-25T12:54:38",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Particles Texture.jpg",
                                         "hash": "633e6164fd04c2de5d7f0ed88b3dd76d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-25T12:21:30",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "sparkleAlpha.png",
                                         "hash": "78798ec1ec67f2b49f5e5807e19f8099",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T11:34:18",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "sparkleMat.lsmat",
                                         "hash": "15d17a1e4ee8b06b8fa8cca35509b818",
                                         "children": ""
@@ -3532,56 +3786,63 @@
                                 ]
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2022-03-01T23:04:38",
+                                "name": "PBR.lsmat",
+                                "hash": "30c908ceed73083c24e1d52db235fe2d",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-01T13:35:04",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "scripts",
                                 "hash": "0ef473c3d8518ddbc26e6a84b90855ac",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-04T07:41:28",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "AddCustomTriggerResponse.js",
                                         "hash": "a4484374029ad9e113aac8a0304f0d61",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-01-25T19:51:42",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Behavior.js",
                                         "hash": "324d936bf1b61fe7a9ad8efc0bd63807",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-22T14:32:04",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-01T13:35:04",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "scoreScript.lsscript",
                                         "hash": "2d28e56f0acb9776c59b38bcef9a31f9",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-03-01T13:35:04",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Script Graph.lsscript",
                                         "hash": "623f23c56f2ff4c9c54359dd0ed50340",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-28T13:42:22",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "stateSwapScript.lsscript",
                                         "hash": "ac87bdec027b50af9ff0733e0b2df2ac",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-28T13:42:22",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "touchTransform.lsscript",
                                         "hash": "b6aac38db50a4c7325eb7ab9ada3f68c",
                                         "children": ""
@@ -3590,48 +3851,69 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-01-26T14:06:58",
+                                "lastModified": "2022-03-01T23:04:38",
+                                "name": "Simple PBR.lsmat",
+                                "hash": "1cc94c1bb798875ff246550b66359f5b",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "sword_low.fbx",
                                 "hash": "c869e815697715c6d41931acc48b8c3a",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-01T12:51:30",
+                                "lastModified": "2022-03-01T21:00:42",
                                 "name": "Textures",
-                                "hash": "830264eb2d61d7e5187af6643e060e8d",
+                                "hash": "c215614530d6e32a4e75c7b14d2a348d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-22T16:26:16",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Base 2.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-25T12:44:50",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "cr_smoke_fade.png",
                                         "hash": "fb284a6f2c7189d45865e6bd636566ed",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-22T16:26:16",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-26T17:28:58",
+                                        "lastModified": "2022-03-01T21:00:41",
+                                        "name": "MaterialParams.png",
+                                        "hash": "af2715bddfbca2d4e72f470d285c5010",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-01T21:00:41",
+                                        "name": "Normal.png",
+                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Particles Texture.jpg",
                                         "hash": "633e6164fd04c2de5d7f0ed88b3dd76d",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-25T12:44:50",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "sparkleAlpha.png",
                                         "hash": "78798ec1ec67f2b49f5e5807e19f8099",
                                         "children": ""
@@ -3640,46 +3922,46 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-01T12:51:30",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "UI",
-                                "hash": "5c4826a4d6c1372b8c072bdaa9e262be",
+                                "hash": "73479fac2e417415bedf6555b713f878",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-22T11:25:10",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-03-01T12:51:30",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Resources",
-                                        "hash": "e4e9dbcd7ce05db7f49d647d946c66b2",
+                                        "hash": "5d016fc857b3e0b70dc4797f0c9bb31c",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-22T11:25:10",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-03-01T12:51:30",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "Fonts",
                                                 "hash": "16060818347d2e309d73a640d4470e01",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "fredoka_one_regular.ttf",
                                                         "hash": "4a2f2ea45a0bb1abe81b47d0afde4aae",
                                                         "children": ""
@@ -3688,33 +3970,33 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-03-01T12:51:30",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "Hints",
                                                 "hash": "724b778e2d1c9fe3367d731ecb87f31b",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2022-03-01T12:51:30",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "tap_hint",
                                                         "hash": "03b8525b063b64a4493c136ef7e07fe0",
                                                         "children": [
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-02-22T11:25:10",
+                                                                "lastModified": "2022-03-01T20:47:45",
                                                                 "name": "animation.t3d",
                                                                 "hash": "1b58692851180994f5fc9e5186b7aa5b",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-02-22T11:25:10",
+                                                                "lastModified": "2022-03-01T20:47:45",
                                                                 "name": "atlas_0.pvr",
                                                                 "hash": "0f1936de9a90129574210976e17c38f4",
                                                                 "children": ""
@@ -3725,27 +4007,27 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-03-01T13:35:04",
+                                                "lastModified": "2022-03-01T23:04:38",
                                                 "name": "Materials",
-                                                "hash": "c990bc8899814553ee9a3d6e53c7f78e",
+                                                "hash": "81f8dcdb2ffdf0838c40794770b46303",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-03-01T13:35:04",
+                                                        "lastModified": "2022-03-01T23:04:38",
                                                         "name": "Palette Material.lsmat",
-                                                        "hash": "dfa570a0051c92b8e5375b2d7ab40656",
+                                                        "hash": "d214e42cff7f1794b188066da75ad3d8",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:14",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "Popup Fill.lsmat",
                                                         "hash": "7f3b8823761297f4a1b6f029a2033e89",
                                                         "children": ""
@@ -3754,55 +4036,55 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-03-01T12:51:30",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "Scripts",
                                                 "hash": "b2bdf689fd244cfcb2fc19b6cf576751",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "UIButton.js",
                                                         "hash": "a1d46e421f638a32848ed71591cc25d3",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "UIColorPicker.js",
                                                         "hash": "3899f64c6205627b542fc65f4fa22420",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "UIDiscretePicker.js",
                                                         "hash": "8d56ba82106a6e5c7144ced901f1bfbf",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "UIPanel.js",
                                                         "hash": "dd0fbff3f3a3839661124f523c66116c",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "UIPopup.js",
                                                         "hash": "ff5e821b7f7d018fd0a03a4634d15da1",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "UIToggle.js",
                                                         "hash": "63f5718b78b0e3a23881210d26cfb4b9",
                                                         "children": ""
@@ -3811,54 +4093,54 @@
                                             },
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2022-03-01T12:51:30",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "Textures",
                                                 "hash": "2363de15538aa8b9bced8b11f079bc8a",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "Base.png",
                                                         "hash": "203b97f7dd88fd357a12944549da2218",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "circle.pvr",
                                                         "hash": "5348e378327d0f21714885cba3843ed2",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2022-03-01T12:51:30",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "Color Picker",
                                                         "hash": "8d80172213e6b6b1befbdfe0c847a977",
                                                         "children": [
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-02-22T11:25:10",
+                                                                "lastModified": "2022-03-01T20:47:45",
                                                                 "name": "colorpicker_background.pvr",
                                                                 "hash": "13f99fe5f5f2688822059993c43d0e2e",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-02-22T11:25:10",
+                                                                "lastModified": "2022-03-01T20:47:45",
                                                                 "name": "colorPicker_popup.pvr",
                                                                 "hash": "4081c5e100cee199c73c5a65bcd3f1af",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-02-22T11:25:10",
+                                                                "lastModified": "2022-03-01T20:47:45",
                                                                 "name": "folder.lock",
                                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-02-22T11:25:10",
+                                                                "lastModified": "2022-03-01T20:47:45",
                                                                 "name": "palette_background.pvr",
                                                                 "hash": "4d11d75ae2243c861010d652ed6f4458",
                                                                 "children": ""
@@ -3867,34 +4149,34 @@
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2022-02-22T11:25:10",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "half_circle.pvr",
                                                         "hash": "f25dcabcebddb9adb6278db0647f5d00",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "true",
-                                                        "lastModified": "2022-03-01T12:51:30",
+                                                        "lastModified": "2022-03-01T20:47:45",
                                                         "name": "Toggle",
                                                         "hash": "b6212903c68504f86e0b85fd0afd6ef8",
                                                         "children": [
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-02-22T11:25:10",
+                                                                "lastModified": "2022-03-01T20:47:45",
                                                                 "name": "folder.lock",
                                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                                 "children": ""
                                                             },
                                                             {
                                                                 "isFolder": "false",
-                                                                "lastModified": "2022-02-22T11:25:10",
+                                                                "lastModified": "2022-03-01T20:47:45",
                                                                 "name": "toggle_background.pvr",
                                                                 "hash": "8fb4180d0842adf53a14ccf422ddf41d",
                                                                 "children": ""
@@ -3909,54 +4191,54 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2022-01-26T21:59:58",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "ulfberhtResto_low.fbx",
                                 "hash": "2962fa4ab9067ffb60f7bb58a20f937f",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2022-03-01T12:51:30",
+                                "lastModified": "2022-03-01T20:47:45",
                                 "name": "WorldObjectController",
-                                "hash": "d1f0963e191649498963c558d34a44b3",
+                                "hash": "c15a17f5c70fdd74cf689258b99012e7",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2022-02-21T12:15:36",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-03-01T13:35:04",
+                                        "lastModified": "2022-03-01T23:04:38",
                                         "name": "Materials",
-                                        "hash": "d9822330034a9b571b6ea104ea7f4330",
+                                        "hash": "3fa7123d053ab2baf3cddb2304534b3c",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:38",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-03-01T13:35:04",
+                                                "lastModified": "2022-03-01T23:04:38",
                                                 "name": "graph_matte_shadow.lsmat",
-                                                "hash": "f28fc33e1fa9be7c65ce6125a67be9eb",
+                                                "hash": "59fbc05cd413e5ab576da7fa06668e7d",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-03-01T13:35:04",
+                                                "lastModified": "2022-03-01T23:04:38",
                                                 "name": "ground_grid.lsmat",
-                                                "hash": "5dff223fdcbd4b3067536d9ff2c5a773",
+                                                "hash": "6e89a0caf655ee2b9b947cf5e1e3912c",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:40",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "touch_collision.lsmat",
                                                 "hash": "0604fc55b70c5085f10fc618d1bf54fc",
                                                 "children": ""
@@ -3965,27 +4247,27 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-03-01T12:51:30",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Meshes",
                                         "hash": "f0362812682ac9944a312513fd031064",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:36",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:36",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "plane.mesh",
                                                 "hash": "3924da4ece660b56cdcb4f2b7b3fe66c",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:36",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "touch_collision_cube.mesh",
                                                 "hash": "e9167dc2c6b4be6840fd00390a21b633",
                                                 "children": ""
@@ -3994,20 +4276,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-03-01T12:51:30",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Scripts",
                                         "hash": "9ff61bcbe2ee900b5e696113446bec86",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:36",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:36",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "WorldObjectController.js",
                                                 "hash": "441e03e6cbaf2911803ef82a1578cb84",
                                                 "children": ""
@@ -4016,20 +4298,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2022-03-01T12:51:30",
+                                        "lastModified": "2022-03-01T20:47:45",
                                         "name": "Textures",
                                         "hash": "c165261cecff61dd56883a587688fc40",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:36",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2022-02-21T12:15:36",
+                                                "lastModified": "2022-03-01T20:47:45",
                                                 "name": "ground_grid.png",
                                                 "hash": "26b5600591ba238fbcf5109847db6d02",
                                                 "children": ""
@@ -4960,6 +5242,38 @@
                                 "additional": {
                                     "originHash": "633e6164fd04c2de5d7f0ed88b3dd76d"
                                 }
+                            },
+                            {
+                                "name": "MaterialParams",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "174",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1646193641976285:340190",
+                                "fileId": "200",
+                                "originalId": "201",
+                                "publicId": "26920",
+                                "source": "C:\/Users\/manga\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiothHQekjvWefu\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": {
+                                    "originHash": "af2715bddfbca2d4e72f470d285c5010"
+                                }
+                            },
+                            {
+                                "name": "Normal",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "175",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1646193642019771:340206",
+                                "fileId": "202",
+                                "originalId": "203",
+                                "publicId": "26921",
+                                "source": "C:\/Users\/manga\/AppData\/Local\/Snap\/Lens Studio\/cache\/temp\/StudiothHQekjvWefu\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": {
+                                    "originHash": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                                }
                             }
                         ]
                     },
@@ -5629,6 +5943,78 @@
                                 "publicId": "26918",
                                 "source": "C:\/Users\/s0497355\/Desktop\/lensAudio\/clipFromBensound_Enigmatic.mp3",
                                 "additional": ""
+                            },
+                            {
+                                "name": "textToSpeach",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "26929",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "blade_inlay",
+                                        "type": "5",
+                                        "subtype": "0",
+                                        "resourceId": "178",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1646196747085436:978905",
+                                        "fileId": "208",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "26925",
+                                        "source": "C:\/Users\/manga\/Desktop\/TSAudio\/blade_inlay.mp3",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "hilt",
+                                        "type": "5",
+                                        "subtype": "0",
+                                        "resourceId": "179",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1646196747160082:978922",
+                                        "fileId": "209",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "26926",
+                                        "source": "C:\/Users\/manga\/Desktop\/TSAudio\/hilt.mp3",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "state",
+                                        "type": "5",
+                                        "subtype": "0",
+                                        "resourceId": "180",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1646196747185310:978937",
+                                        "fileId": "210",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "26927",
+                                        "source": "C:\/Users\/manga\/Desktop\/TSAudio\/state.mp3",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "steel",
+                                        "type": "5",
+                                        "subtype": "0",
+                                        "resourceId": "181",
+                                        "dependency": "0",
+                                        "hidden": "false",
+                                        "uid": "1646196747211725:978948",
+                                        "fileId": "211",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "26928",
+                                        "source": "C:\/Users\/manga\/Desktop\/TSAudio\/steel.mp3",
+                                        "additional": ""
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -5785,12 +6171,64 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "name": "Simple PBR",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "172",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1646193526147852:306823",
+                        "fileId": "196",
+                        "originalId": "197",
+                        "publicId": "26919",
+                        "source": "",
+                        "additional": {
+                            "isUnpackedInPublic": "false"
+                        }
+                    },
+                    {
+                        "name": "PBR",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "173",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1646193641778051:340089",
+                        "fileId": "198",
+                        "originalId": "199",
+                        "publicId": "26922",
+                        "source": "",
+                        "additional": {
+                            "isUnpackedInPublic": "false"
+                        }
+                    },
+                    {
+                        "name": "cardMat",
+                        "type": "2",
+                        "subtype": "1",
+                        "resourceId": "177",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1646193831185315:420094",
+                        "fileId": "206",
+                        "originalId": "207",
+                        "publicId": "26924",
+                        "source": "",
+                        "additional": {
+                            "isUnpackedInPublic": "false"
+                        }
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1646146790859540:271528"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
